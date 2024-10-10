@@ -7,11 +7,63 @@
   line-height: 20px;
 }
 
+.header {
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+}
+
 .nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__logo {
+  display: block;
+  height: 39px;
+  width: 105px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .nav__links {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 80px;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
 }
 
 .nav__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__content {
+}
+
+.header__title {
+}
+
+.header__span-accent {
+}
+
+.header__description {
+}
+
+.header__image {
+  height: 10px;
+  width: 10px;
+}
+
+.header__footer {
+}
+
+.header__paragraph {
 }
