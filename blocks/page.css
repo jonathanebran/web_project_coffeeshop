@@ -7,7 +7,7 @@
   line-height: 20px;
 }
 
-.page__content {
+.content {
   display: flex;
   flex-direction: column;
 }
